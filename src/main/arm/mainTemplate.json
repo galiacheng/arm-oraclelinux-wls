@@ -171,7 +171,9 @@
             "name": "[variables('const_storageAccountType')]"
          },
          "kind": "Storage",
-         "properties": {}
+         "properties": {
+            "supportsHttpsTrafficOnly": true
+         }
       },
       {
          "type": "Microsoft.Network/publicIPAddresses",
